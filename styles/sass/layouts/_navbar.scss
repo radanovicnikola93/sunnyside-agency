@@ -1,6 +1,7 @@
 nav {
     position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     z-index: 999;
     height: 5rem;
@@ -11,9 +12,9 @@ nav {
     justify-content: space-between;
     align-items: center;
 
-    div:first-child {
+    // div:first-child {
 
-    }
+    // }
 
     // menu links
     div:nth-of-type(2) {

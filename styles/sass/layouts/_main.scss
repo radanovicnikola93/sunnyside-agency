@@ -1,0 +1,65 @@
+main {
+    .main--container {
+        display: flex;
+        flex-wrap: wrap;
+
+        .main--content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+            flex-basis: 100%;
+        }
+
+        .main--image {
+            img {
+                width: 100%;
+            }
+        }
+
+        .main--wrapper {
+            display: flex;
+            flex-direction: column;
+
+            &.main--wrapper--left {
+                background-image: url('/images/desktop/image-graphic-design.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            &.main--wrapper--right {
+                background-image: url('/images/desktop/image-photography.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        }
+
+        // first row
+        div:first-child {
+            display: flex;
+            width: 100%;
+        }
+
+        // first row
+        div:nth-of-type(2) {
+            display: flex;
+            width: 100%;
+            flex-direction: row-reverse;
+        }
+
+        // first row
+        div:last-child {
+            display: flex;
+            width: 100%;
+        }
+    }
+
+
+
+    .main--image--mobile {
+        display: none;
+    }
+}
