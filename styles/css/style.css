@@ -14,7 +14,27 @@ nav .navbar--btn {
   border-radius: 1rem;
   text-transform: uppercase; }
 
+header {
+  min-height: 100vh;
+  background-image: url("/images/desktop/image-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  header h1 {
+    font-family: "Fraunces", serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 4rem; }
+
 nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
   height: 5rem;
   padding-inline: 2rem;
   display: flex;
