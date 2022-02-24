@@ -1,3 +1,21 @@
+// BASE
 @import "./base/colors";
 @import "./base/reset";
 @import "./base/typography";
+
+// COMPONENTS
+@import "./components/client";
+@import "./components/footer-links";
+@import "./components/footer-social";
+@import "./components/main--content";
+@import "./components/main--image";
+@import "./components/main--wrapper";
+@import "./components/nav-btn";
+
+// LAYOUTS
+@import "./layouts/footer";
+@import "./layouts/gallery";
+@import "./layouts/header";
+@import "./layouts/main";
+@import "./layouts/navbar";
+@import "./layouts/testimonial";
