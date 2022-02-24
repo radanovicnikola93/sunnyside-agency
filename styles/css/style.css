@@ -1,13 +1,7 @@
 * {
-  box-sizing: border-box; }
-
-html, body, div, img {
+  box-sizing: border-box;
   margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
+  padding: 0; }
 
 body {
   line-height: 1; }
@@ -80,7 +74,6 @@ main .main--image--mobile {
 nav {
   position: fixed;
   top: 0;
-  left: 0;
   width: 100%;
   z-index: 999;
   height: 5rem;
@@ -89,7 +82,7 @@ nav {
   justify-content: space-between;
   align-items: center; }
   nav div:nth-of-type(2) {
-    width: 15%; }
+    width: 25rem; }
     nav div:nth-of-type(2) li {
       display: flex;
       justify-content: space-between;
