@@ -1,0 +1,15 @@
+.gallery {
+ 
+    .gallery--container {
+        display: flex;
+
+        > div {
+            img {
+                width: 100%;
+                &.gallery--img-mobile {
+                    display: none;
+                }
+            }
+        }
+    }
+}
