@@ -6,6 +6,16 @@
 body {
   line-height: 1; }
 
+.client {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center; }
+  .client div:first-child img {
+    width: 4rem;
+    border-radius: 50%; }
+
 nav .navbar--btn {
   font-family: "Fraunces", serif;
   font-weight: 700;
@@ -92,6 +102,23 @@ nav {
         color: white; }
   nav div:last-child {
     display: none; }
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 5rem;
+  height: 100vh; }
+  .testimonial .testimonial--header h4 {
+    text-transform: uppercase;
+    font-family: "Fraunces", serif;
+    color: #a7abae;
+    letter-spacing: 0.2rem; }
+  .testimonial .testimonial--container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 60%; }
 
 body {
   font-family: "Barlow", sans-serif;

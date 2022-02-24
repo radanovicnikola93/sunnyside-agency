@@ -1,0 +1,23 @@
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5rem;
+    height: 100vh;
+
+    .testimonial--header {
+        h4 {
+            text-transform: uppercase;
+            font-family: $ff-fraunces;
+            color: $grayish-blue;
+            letter-spacing: 0.2rem;
+        }
+    }
+
+    .testimonial--container {
+        display: flex;
+        justify-content: space-evenly;
+        height: 60%;
+    }
+}
