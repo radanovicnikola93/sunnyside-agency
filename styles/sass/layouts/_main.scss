@@ -3,39 +3,6 @@ main {
         display: flex;
         flex-wrap: wrap;
 
-        .main--content {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
-            flex-basis: 100%;
-        }
-
-        .main--image {
-            img {
-                width: 100%;
-            }
-        }
-
-        .main--wrapper {
-            display: flex;
-            flex-direction: column;
-
-            &.main--wrapper--left {
-                background-image: url('/images/desktop/image-graphic-design.jpg');
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-            }
-
-            &.main--wrapper--right {
-                background-image: url('/images/desktop/image-photography.jpg');
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-            }
-        }
-
         // first row
         div:first-child {
             display: flex;
