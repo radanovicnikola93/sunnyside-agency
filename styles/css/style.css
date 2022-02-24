@@ -27,6 +27,35 @@ nav .navbar--btn {
   border-radius: 1rem;
   text-transform: uppercase; }
 
+footer {
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #458c7e; }
+  footer div:first-child {
+    width: 30%;
+    height: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center; }
+    footer div:first-child .contact--header img {
+      color: #25564b; }
+    footer div:first-child .contact--links {
+      width: 100%;
+      display: flex;
+      justify-content: space-between; }
+      footer div:first-child .contact--links a {
+        color: #25564b;
+        text-decoration: none; }
+  footer div:last-child {
+    width: 20%;
+    display: flex;
+    justify-content: space-between; }
+
 .gallery .gallery--container {
   display: flex; }
   .gallery .gallery--container > div img {
