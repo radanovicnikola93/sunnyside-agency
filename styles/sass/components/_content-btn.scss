@@ -1,0 +1,19 @@
+.content-btn {
+    border: none;
+    text-transform: uppercase;
+    font-family: $ff-fraunces;
+    font-weight: $fw-900;
+    position: relative;
+    z-index: 1;
+
+    &::after {
+        content: "";
+        background-color: $yellow;
+        opacity: 30%;
+        height: 0.7rem;
+        width: 100%;
+        position: absolute;
+        top: 60%;
+        left: 0;
+    }
+}

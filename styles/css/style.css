@@ -78,7 +78,10 @@ p, h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  flex-basis: 100%; }
+  padding: 1rem; }
+  .main--content h2 {
+    font-family: "Fraunces", serif;
+    font-weight: 900; }
 
 .main--image img {
   width: 100%; }
@@ -92,6 +95,23 @@ nav .navbar--btn {
   border: none;
   border-radius: 2rem;
   text-transform: uppercase; }
+
+.content-btn {
+  border: none;
+  text-transform: uppercase;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  position: relative;
+  z-index: 1; }
+  .content-btn::after {
+    content: "";
+    background-color: #fad400;
+    opacity: 30%;
+    height: 0.7rem;
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    left: 0; }
 
 footer {
   width: 100%;

@@ -3,5 +3,10 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    flex-basis: 100%;
+    padding: 1rem;
+
+    h2 {
+        font-family: $ff-fraunces;
+        font-weight: $fw-900;
+    }
 }
