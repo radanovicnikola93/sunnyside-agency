@@ -21,3 +21,19 @@
         height: 60%;
     }
 }
+
+@media (max-width: 800px) {
+    .testimonial {
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .testimonial--header {
+        margin-bottom: 3rem;
+    }
+
+    .testimonial--container {
+        flex-direction: column;
+        min-height: 100%;
+    }
+}
