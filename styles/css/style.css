@@ -100,6 +100,11 @@ nav .navbar--btn {
   text-transform: uppercase;
   cursor: pointer; }
 
+@media (max-width: 800px) {
+  nav .navbar--btn {
+    color: white;
+    background-color: #23303e; } }
+
 .content-btn {
   border: none;
   text-transform: uppercase;
@@ -187,15 +192,15 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center; }
-  nav div:nth-of-type(2) {
+  nav .nav--links {
     min-width: 35rem; }
-    nav div:nth-of-type(2) ul {
+    nav .nav--links ul {
       display: flex;
       justify-content: space-between;
       align-items: center; }
-      nav div:nth-of-type(2) ul li {
+      nav .nav--links ul li {
         list-style: none; }
-        nav div:nth-of-type(2) ul li a {
+        nav .nav--links ul li a {
           text-decoration: none;
           color: white;
           font-weight: 700; }
@@ -207,23 +212,37 @@ nav.nav-active {
   color: #fad400; }
   nav.nav-active div:first-child img {
     fill: #23303e; }
-  nav.nav-active div:nth-of-type(2) li a {
+  nav.nav-active .nav--links li a {
     color: #23303e; }
-  nav.nav-active div:nth-of-type(2) li button {
+  nav.nav-active .nav--links li button {
     background-color: #23303e;
     color: white; }
 
 @media (max-width: 800px) {
-  nav div:nth-of-type(2) {
+  nav .nav--links {
     position: fixed;
-    left: -100%;
-    top: 70px;
-    flex-direction: column; }
+    top: -1000px;
+    left: 0;
+    background-color: white;
+    height: 25rem;
+    width: 100%;
+    text-align: center;
+    transition: 600ms; }
+    nav .nav--links ul {
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 100%; }
+      nav .nav--links ul li a {
+        color: #23303e; }
+  nav .nav--links.active {
+    top: 5rem; }
   nav .nav--btn-toggle {
     display: block;
     background: transparent;
     border: none;
-    cursor: pointer; } }
+    cursor: pointer; }
+  nav.nav-active {
+    background-color: #23303e; } }
 
 .testimonial {
   display: flex;

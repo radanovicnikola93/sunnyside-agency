@@ -11,3 +11,12 @@ nav {
         cursor: pointer;
     }
 }
+
+@media (max-width: 800px) {
+    nav {
+        .navbar--btn {
+            color: $white;
+            background-color: $very-dark-desaturated-blue;
+        }
+}   
+}
