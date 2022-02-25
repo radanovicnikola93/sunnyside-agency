@@ -86,12 +86,11 @@ p, h1, h2, h3, h4, h5, h6 {
 nav .navbar--btn {
   font-family: "Fraunces", serif;
   font-weight: 700;
-  letter-spacing: 1px;
   color: #000;
   background-color: white;
-  padding: 1rem;
+  padding: 1rem 2rem;
   border: none;
-  border-radius: 1rem;
+  border-radius: 2rem;
   text-transform: uppercase; }
 
 footer {
@@ -163,15 +162,14 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center; }
-  nav div:nth-of-type(2) {
-    width: 25rem; }
-    nav div:nth-of-type(2) li {
-      display: flex;
-      justify-content: space-between;
-      align-items: center; }
-      nav div:nth-of-type(2) li a {
-        text-decoration: none;
-        color: white; }
+  nav div:nth-of-type(2) li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    nav div:nth-of-type(2) li a {
+      text-decoration: none;
+      color: white;
+      font-weight: 700; }
   nav div:last-child {
     display: none; }
 
