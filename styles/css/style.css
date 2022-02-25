@@ -277,6 +277,11 @@ nav.nav-active {
     display: flex;
     justify-content: space-evenly;
     height: 60%; }
+    .testimonial .testimonial--container .client--name {
+      font-family: "Fraunces", serif;
+      font-weight: 900; }
+    .testimonial .testimonial--container .client--job-position {
+      color: #a7abae; }
 
 @media (max-width: 800px) {
   .testimonial {
