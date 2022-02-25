@@ -10,4 +10,8 @@
             border-radius: 50%;
         }
     }
+
+    &:not(:last-child) {
+        margin-right: 2rem;
+    }
 }

@@ -59,6 +59,8 @@ p, h1, h2, h3, h4, h5, h6 {
   .client div:first-child img {
     width: 4rem;
     border-radius: 50%; }
+  .client:not(:last-child) {
+    margin-right: 2rem; }
 
 .contact--links {
   width: 100%;
@@ -73,17 +75,16 @@ p, h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: space-between; }
 
-.main--content {
-  width: 100%; }
-  .main--content > div {
-    padding: 5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start; }
-  .main--content h2 {
-    font-family: "Fraunces", serif;
-    font-weight: 900; }
+.main--content > div {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start; }
+
+.main--content h2 {
+  font-family: "Fraunces", serif;
+  font-weight: 900; }
 
 .main--image img {
   width: 100%; }
