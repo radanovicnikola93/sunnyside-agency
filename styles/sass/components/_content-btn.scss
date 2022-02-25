@@ -5,6 +5,7 @@
     font-weight: $fw-900;
     position: relative;
     z-index: 1;
+    cursor: pointer;
 
     &::after {
         content: "";
