@@ -1,4 +1,9 @@
 body {
     font-family: $ff-barlow;
     font-weight: $fw-300;
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
 }

@@ -199,7 +199,7 @@ nav {
           text-decoration: none;
           color: white;
           font-weight: 700; }
-  nav div:last-child {
+  nav .nav--btn-toggle {
     display: none; }
 
 nav.nav-active {
@@ -212,6 +212,18 @@ nav.nav-active {
   nav.nav-active div:nth-of-type(2) li button {
     background-color: #23303e;
     color: white; }
+
+@media (max-width: 800px) {
+  nav div:nth-of-type(2) {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    flex-direction: column; }
+  nav .nav--btn-toggle {
+    display: block;
+    background: transparent;
+    border: none;
+    cursor: pointer; } }
 
 .testimonial {
   display: flex;
@@ -232,4 +244,8 @@ nav.nav-active {
 
 body {
   font-family: "Barlow", sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+  height: 100%; }
+
+html {
+  scroll-behavior: smooth; }
