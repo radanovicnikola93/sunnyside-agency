@@ -45,7 +45,7 @@ nav.nav-active {
 
     div:first-child {
         img {
-            fill: $very-dark-desaturated-blue;
+            filter: opacity(80%) brightness(0%);
         }
     }
 
