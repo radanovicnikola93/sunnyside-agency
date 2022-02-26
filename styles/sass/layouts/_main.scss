@@ -30,8 +30,6 @@ main {
 
 @media (max-width: 800px) {
     .main--container {
-        // TODO
-        // fix flex direction
         > div:first-child {
             flex-direction: column-reverse;
         }

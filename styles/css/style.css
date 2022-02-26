@@ -147,10 +147,20 @@ footer {
 
 .gallery .gallery--container {
   display: flex; }
-  .gallery .gallery--container > div img {
-    width: 100%; }
-    .gallery .gallery--container > div img.gallery--img-mobile {
-      display: none; }
+  .gallery .gallery--container > div {
+    display: flex; }
+    .gallery .gallery--container > div img {
+      width: 100%; }
+      .gallery .gallery--container > div img.gallery--img-mobile {
+        display: none; }
+
+@media (max-width: 800px) {
+  .gallery--container {
+    flex-direction: column; }
+    .gallery--container > div img.gallery--img-mobile {
+      display: block !important; }
+    .gallery--container > div img.gallery--img-desktop {
+      display: none; } }
 
 header {
   min-height: 100vh;

@@ -2,11 +2,28 @@
  
     .gallery--container {
         display: flex;
-
         > div {
+            display: flex;
             img {
                 width: 100%;
                 &.gallery--img-mobile {
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .gallery--container {
+        flex-direction: column;
+
+        > div {
+            img {
+                &.gallery--img-mobile {
+                    display: block !important;
+                }
+                &.gallery--img-desktop {
                     display: none;
                 }
             }
