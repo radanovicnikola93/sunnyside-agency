@@ -180,7 +180,7 @@ footer {
 
 header {
   min-height: 100vh;
-  background-image: url("/images/desktop/image-header.jpg");
+  background-image: url("../../../images/desktop/image-header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
