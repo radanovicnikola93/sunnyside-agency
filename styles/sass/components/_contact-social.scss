@@ -2,4 +2,16 @@
         width: 20%;
         display: flex;
         justify-content: space-between;
-    }
+}
+
+@media (max-width: 800px) {
+  .contact--social {
+      width: 30%;
+  }
+}
+
+@media (max-width: 490px) {
+  .contact--social {
+      width: 50%;
+  }
+}

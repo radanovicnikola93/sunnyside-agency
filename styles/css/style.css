@@ -79,6 +79,14 @@ p, h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: space-between; }
 
+@media (max-width: 800px) {
+  .contact--social {
+    width: 30%; } }
+
+@media (max-width: 490px) {
+  .contact--social {
+    width: 50%; } }
+
 .main--content > div {
   padding: 5rem;
   display: flex;
