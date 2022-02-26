@@ -32,6 +32,17 @@ main {
     .main--container {
         // TODO
         // fix flex direction
+        > div:first-child {
+            flex-direction: column-reverse;
+        }
+
+        > div:nth-of-type(2) {
+            flex-direction: column-reverse !important;
+        }
+
+        > div:last-child {
+            flex-direction: column;
+        }
     }
     
     .main--image--mobile {
