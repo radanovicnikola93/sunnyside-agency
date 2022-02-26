@@ -258,8 +258,8 @@ nav.nav-active {
     top: -1000px;
     left: 0;
     background-color: white;
-    height: 25rem;
-    width: 100%;
+    height: 30rem;
+    width: 80%;
     text-align: center;
     transition: 600ms; }
     nav .nav--links ul {
@@ -268,8 +268,14 @@ nav.nav-active {
       height: 100%; }
       nav .nav--links ul li a {
         color: #23303e; }
+      nav .nav--links ul li button {
+        background-color: #fad400;
+        color: #23303e; }
   nav .nav--links.active {
-    top: 5rem; }
+    top: 5rem;
+    left: 10%;
+    clip-path: polygon(0 10%, 92% 10%, 100% 0, 100% 100%, 0 100%);
+    padding-top: 5rem; }
   nav .nav--btn-toggle {
     display: block;
     background: transparent;
