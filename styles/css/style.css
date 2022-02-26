@@ -145,6 +145,14 @@ footer {
     footer div:first-child .contact--header img {
       filter: opacity(30%) brightness(0%); }
 
+@media (max-width: 800px) {
+  footer .contact--header {
+    min-width: 200px; }
+    footer .contact--header img {
+      width: 100%; }
+  footer .contact--links {
+    min-width: 300px; } }
+
 .gallery .gallery--container {
   display: flex; }
   .gallery .gallery--container > div {

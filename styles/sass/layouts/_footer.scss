@@ -1,29 +1,39 @@
 footer {
-    width: 100%;
-    height: 20rem;
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: $footer;
+
+  div:first-child {
+    width: 30%;
+    height: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: $footer;
-    
 
-    div:first-child {
-        width: 30%;
-        height: 8rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
+    .contact--header {
+      img {
+        filter: opacity(30%) brightness(0%);
+      }
+    }
+  }
+}
 
-        .contact--header {
-            img {
-                filter: opacity(30%) brightness(0%);
-            }
-        }
-
-        
+@media (max-width: 800px) {
+  footer {
+    .contact--header {
+      min-width: 200px;
+      img {
+        width: 100%;
+      }
     }
 
-    
+    .contact--links {
+        min-width: 300px;
+    }
+  }
 }
