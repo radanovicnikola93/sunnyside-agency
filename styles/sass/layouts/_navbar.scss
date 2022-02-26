@@ -114,6 +114,10 @@ nav.nav-active {
     }
 
     nav.nav-active {
-    background-color: $very-dark-desaturated-blue;
+        button {
+            img {
+                filter: brightness(0%);
+            }
+        }
 }
 }

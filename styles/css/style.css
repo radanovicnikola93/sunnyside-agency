@@ -258,8 +258,8 @@ nav.nav-active {
       transform: rotate(0deg); }
     to {
       transform: rotate(360deg); } }
-  nav.nav-active {
-    background-color: #23303e; } }
+  nav.nav-active button img {
+    filter: brightness(0%); } }
 
 .testimonial {
   display: flex;
