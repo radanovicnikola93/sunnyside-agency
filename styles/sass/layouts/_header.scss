@@ -1,22 +1,39 @@
 header {
-    min-height: 100vh;
-    background-image: url('/images/desktop/image-header.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+  min-height: 100vh;
+  background-image: url("/images/desktop/image-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 
-    // flex
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  // flex
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
+  h1 {
+    font-family: $ff-fraunces;
+    text-transform: uppercase;
+    color: $white;
+    font-size: $fs-900;
+
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 800px) {
+  header {
     h1 {
-        font-family: $ff-fraunces;
-        text-transform: uppercase;
-        color: $white;
-        font-size: $fs-900;
-
-        margin-bottom: 4rem;
+        max-width: 80%;
+        text-align: center;
     }
+  }
+}
+
+@media (max-width: 490px) {
+  header {
+    h1 {
+        font-size: $fs-700;
+    }
+  }
 }
