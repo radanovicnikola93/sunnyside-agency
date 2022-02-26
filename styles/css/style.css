@@ -301,13 +301,14 @@ nav.nav-active {
 
 @media (max-width: 800px) {
   .testimonial {
-    height: 100%;
-    justify-content: space-between; }
-  .testimonial--header {
-    margin-bottom: 3rem; }
-  .testimonial--container {
-    flex-direction: column;
-    min-height: 100%; } }
+    min-height: 60rem;
+    justify-content: space-evenly; }
+    .testimonial .testimonial--container {
+      height: 90%;
+      flex-direction: column;
+      justify-content: space-between; }
+      .testimonial .testimonial--container .client {
+        margin-right: 0; } }
 
 body {
   font-family: "Barlow", sans-serif;

@@ -37,16 +37,23 @@
 
 @media (max-width: 800px) {
     .testimonial {
-        height: 100%;
-        justify-content: space-between;
+        min-height: 60rem;
+        justify-content: space-evenly;
+
+        .testimonial--container {
+            height: 90%;
+            flex-direction: column;
+            justify-content: space-between;
+        .client {
+            
+            margin-right: 0;
+        }
+    }
     }
 
     .testimonial--header {
-        margin-bottom: 3rem;
+
     }
 
-    .testimonial--container {
-        flex-direction: column;
-        min-height: 100%;
-    }
+    
 }
