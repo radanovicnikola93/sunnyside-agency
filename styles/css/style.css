@@ -280,9 +280,11 @@ nav.nav-active {
     text-align: center;
     transition: 600ms; }
     nav .nav--links ul {
+      align-items: center;
       flex-direction: column;
       justify-content: space-evenly;
-      height: 100%; }
+      height: 100%;
+      width: 100%; }
       nav .nav--links ul li a {
         color: #23303e; }
       nav .nav--links ul li button {
