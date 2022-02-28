@@ -244,7 +244,7 @@ nav {
   justify-content: space-between;
   align-items: center; }
   nav .nav--links {
-    min-width: 35rem; }
+    width: 50%; }
     nav .nav--links ul {
       display: flex;
       justify-content: space-between;
